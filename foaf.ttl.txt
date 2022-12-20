@@ -26,10 +26,10 @@
     a foaf:Person ;
     foaf:name "Tamara" ;
     foaf:mbox_sha1sum "1548bf5043974b1d9bd0eb88d340aca266ed2cac" ;
-    rdfs:seeAlso <https://www.dropbox.com/s/z8ohgpovtpf3kd6/foaf.ttl?dl=1 >
+    rdfs:seeAlso <https://raw.githubusercontent.com/TamaraSimikj/WBS_foaf/main/foaf.ttl.txt>
   ], [
     a foaf:Person ;
     foaf:name "Monika" ;
     foaf:mbox_sha1sum "bdbf3fae767b6767e0943805394333560c3a4e6a" ;
-    rdfs:seeAlso <https://www.dropbox.com/s/c6a8n4cuamajer7/foaf.ttl?dl=1>
+    rdfs:seeAlso <https://raw.githubusercontent.com/msvilanovik/foaf/main/foaf.ttl.txt>
   ] .
