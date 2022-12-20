@@ -1,0 +1,35 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://njh.me/>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <http://njh.me/#me> ;
+  foaf:primaryTopic <http://njh.me/#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<http://njh.me/#me>
+  a foaf:Person ;
+  foaf:name "Marija Siljanovska" ;
+  foaf:title "Ms" ;
+  foaf:givenname "Marija" ;
+  foaf:family_name "Siljanovska" ;
+  foaf:nick "Maca" ;
+  foaf:mbox_sha1sum "458771917a35cb4f8039b632096c6c40a4dcda7a" ;
+  foaf:homepage <https://www.linkedin.com/in/marija-siljanovska-2062aa170/> ;
+  foaf:phone <tel:078123123> ;
+  foaf:workplaceHomepage <https://www.linkedin.com/company/google/> ;
+  foaf:workInfoHomepage <https://www.linkedin.com/showcase/chrome-enterprise/> ;
+  foaf:schoolHomepage <https://www.ykc.edu.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Tamara" ;
+    foaf:mbox_sha1sum "1548bf5043974b1d9bd0eb88d340aca266ed2cac" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/z8ohgpovtpf3kd6/foaf.ttl?dl=1 >
+  ], [
+    a foaf:Person ;
+    foaf:name "Monika" ;
+    foaf:mbox_sha1sum "bdbf3fae767b6767e0943805394333560c3a4e6a" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/c6a8n4cuamajer7/foaf.ttl?dl=1>
+  ] .
