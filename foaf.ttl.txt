@@ -2,14 +2,14 @@
 @prefix ns0: <http://webns.net/mvcb/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://njh.me/>
+<https://raw.githubusercontent.com/marijasiljan/FOAF/main/foaf.ttl.txt>
   a foaf:PersonalProfileDocument ;
-  foaf:maker <http://njh.me/#me> ;
-  foaf:primaryTopic <http://njh.me/#me> ;
+  foaf:maker <https://raw.githubusercontent.com/marijasiljan/FOAF/main/foaf.ttl.txt#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/marijasiljan/FOAF/main/foaf.ttl.txt#me> ;
   ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
   ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
-<http://njh.me/#me>
+<https://raw.githubusercontent.com/marijasiljan/FOAF/main/foaf.ttl.txt#me>
   a foaf:Person ;
   foaf:name "Marija Siljanovska" ;
   foaf:title "Ms" ;
